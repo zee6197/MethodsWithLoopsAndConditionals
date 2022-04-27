@@ -98,6 +98,10 @@ namespace MethodsWithLoopsAndConditionals
             int num = int.Parse(Console.ReadLine());
             int checkVar = num % 2;
 
+            if(num == 0)
+            {
+                Console.WriteLine("Please enter a valid input! (No zeroes allowed)");
+            }
             if (checkVar == 0)
             {
                 Console.WriteLine("The number you entered is EVEN!");
